@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    background-image: url('http://unsplash.it/600/600?image=607');
+    background-size: cover;
+    padding: 100px;
+    color: white;
+}
+
+.title {
+    font-size: 120px;
+}
+
+.emailInput {
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+#photos {
+  /* Prevent vertical gaps */
+  line-height: 0;
+   
+  -webkit-column-count: 2;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    2;
+  -moz-column-gap:      0px;
+  column-count:         2;
+  column-gap:           0px;  
+}
+
+#photos img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+  margin: 10px;
+  border-radius: 5px;
+  
+}
