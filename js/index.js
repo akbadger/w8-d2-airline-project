@@ -14,13 +14,19 @@ $('.image').MyFadeOverImage({
 
 $("#sticker").sticky({topSpacing:0});
 
-$('.tiltshift').tiltShift();
-
 $('.main-carousel').flickity({
   // options
   cellAlign: 'center',
   contain: true
 });
+
+$('#showModalButton').on('click', function() {
+        $('#modal').removeClass('hidden');  
+        
+    })
+$('#closeButton').on('click', function() {
+        $('#modal').addClass('hidden'); 
+})
 
 
 });

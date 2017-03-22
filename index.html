@@ -41,7 +41,7 @@
             <div class="row">
                 <div class="col-sm-12 text-center">
                     <div class="title">WING</div>
-                    <h4 class="text-uppercase">Search hundreds of affordable flights</h4>
+                    <h4 class="text-uppercase">Book hundreds of imaginary flights</h4>
                 </div>
             </div>
             <br/>
@@ -53,7 +53,7 @@
                         <input type="text" class="form-control" placeholder="To">
                         <input type="text" class="form-control " placeholder="From">
 
-                        <button class="btn btn-default btn-block" type="button">Search</button>
+                        <button id="showModalButton" class="btn btn-default btn-block" type="button">BOOK IT</button>
 
                     </div>
                 </div>
@@ -95,14 +95,28 @@
                         <img src="img/chi.jpg" />
                     </section>
                 </div>
+            </div>
+            <div class="row">
                 <div class="main-carousel">
-                    <div class="carousel-cell">HEY</div>
-                    <div class="carousel-cell">WORK</div>
-                    <div class="carousel-cell">PLEASE</div>
+                    <div class="carousel-cell"><img src="img/ny.jpg" /></div>
+                    <div class="carousel-cell"><img src="img/ny.jpg" /></div>
+                    <div class="carousel-cell"><img src="img/ny.jpg" /></div>
                 </div>
             </div>
         </div>
     </main>
+
+
+    <div id="modal" class="overlay-background hidden">
+        <div class="overlay text-center">
+            <button type="button" id="closeButton" class="btn btn-default glyphicon glyphicon-remove"></button>
+            <h2>W</h2>
+            <h3>THANK YOU.</h3>
+            <h4>Your flight has been booked.  <br/> Your confirmation number is: 12FYH6 <br/> A confirmation email will be sent to you within 24 hours.</h4>
+           
+        </div>
+    </div>
+
     </div>
     </div>
 
