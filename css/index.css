@@ -3,13 +3,31 @@
 }
 
 body {
+    padding-top: 10px;
     font-family: 'Raleway', sans-serif;
+}
+
+.nav {
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+.nav a {
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#wing-logo {
+    font-size: 20px;
+    margin-right: 40px;
 }
 
 header {
     background-image: url('http://unsplash.it/600/600?image=607');
     background-size: cover;
-    padding: 100px;
+    padding: 80px;
     color: white;
 }
 
@@ -41,4 +59,14 @@ header {
   margin: 10px;
   border-radius: 5px;
   
+}
+
+/* carousel height */
+.carousel {
+  height: 160px;
+}
+
+/* cell inherit height from carousel */
+.carousel-cell {
+  height: 100%;
 }
